@@ -1,0 +1,36 @@
+ <!-- 
+        분석 결과
+        --------------------------(hr)
+        통과!
+
+        정확한 암호가 입력될 때까지 계속 prompt()를 사용하여 암호를 입력받는다.
+        암호는 "호랑이"이다.
+
+     -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body></body>
+<script>
+
+    with(document) {
+        write(`<h1>분석 결과</h1>`);
+        write(`<hr>`);
+        write(`<h2>통과<h2>`);
+    }
+
+    
+    while(true) {
+        let select = prompt("암호 입력", "");
+        if(select =="호랑이"){
+            break;
+        }
+    }
+</script>
+</html>
