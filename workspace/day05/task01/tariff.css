@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {
+    font-family: 'NanumGomSinCe';
+}
+
+table {
+    width: 30%;
+    border: 1px solid black;
+    border-collapse: separate;
+    margin: 0 auto
+    
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+    background-color: #FFF9C4;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+fieldset{
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+}

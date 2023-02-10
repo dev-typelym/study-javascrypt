@@ -1,0 +1,63 @@
+fieldset {
+    text-align: center;
+    border-top: 8px dashed #AC46BC;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    width: 30%;
+    
+}
+
+legend {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+input[type=text]:focus 
+    {outline:none;}
+
+input[type=text] {
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 3px solid black;
+    border-right: 0px;
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+input[type=button] {
+    margin-top: 2px;
+    width: 20%;
+    height: 20%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #AC46BC;
+    color: #FFFEFF;
+
+}
+#count-cover{
+    text-align: left;
+    width: 33%
+    
+}
+
+#count {
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #AC46BC;
+    background-color: #FFFF01;
+    border-radius: 30px;
+}
+
+#result1 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size:30px
+    
+}
